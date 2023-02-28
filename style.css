@@ -3,3 +3,46 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+body{
+    background: rgb(1,15,17);
+    background: linear-gradient(90deg, rgba(1,15,17,1) 0%, rgba(10,48,47,1) 50%, rgba(25,75,75,1) 100%);
+    color: rgb(255, 255, 255);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.header-nav{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.275rem;
+}
+
+.header-nav-links{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+span{
+    position: relative;
+}
+
+span:hover::after{
+    width: 100%;
+}
+
+span::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+    transition: width 0.5s
+}
