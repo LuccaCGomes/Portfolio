@@ -28,21 +28,46 @@ body{
     text-decoration: none;
 }
 
-span{
+.header-nav-links-span{
     position: relative;
 }
 
-span:hover::after{
+.header-nav-links-span:hover::after{
     width: 100%;
 }
 
-span::after{
+.header-nav-links-span::after{
     content: '';
     width: 0%;
-    height: 3px;
-    background: #ffffff;
+    height: 1px;
+    background: rgb(255, 255, 255);
     position: absolute;
     left: 0;
     bottom: -0.5rem;
     transition: width 0.5s
+}
+
+.section-introducao{
+    border-top: 1px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem;
+}
+
+.section-introducao-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section-introducao-container-title{
+    font-size: 2rem;
+}
+
+.section-introducao-container-text{
+    line-height: 1.725rem;
 }
