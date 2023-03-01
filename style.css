@@ -71,3 +71,47 @@ body{
 .section-introducao-container-text{
     line-height: 1.725rem;
 }
+
+.section-sobremim{
+    border-top: 1px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding: 3rem;
+    background-color: rgb(13,26,29);
+}
+
+.section-sobremim-text{
+    width:65%;
+}
+
+.section-conhecimentos{
+    border-top: 1px solid #FFFFFF;
+    padding: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section-conhecimentos-item{
+    display: flex;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    text-align: left;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgba(150, 76, 76, 0.2);
+}
+
+.section-conhecimentos-item:hover{
+    background-color: rgba(150, 76, 76, 0.3);
+}
+
+.section-conhecimentos-item-image{
+    width: 80px;
+}
